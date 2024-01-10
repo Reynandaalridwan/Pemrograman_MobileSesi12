@@ -36,6 +36,7 @@ class _LoginPageState extends State<LoginPage> {
                 label: "NIM",
                 controller: nimController,
                 obsecureText: false,
+                keyboardType: TextInputType.number,
               ),
               SizedBox(
                 height: 8,
